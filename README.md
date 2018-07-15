@@ -1,6 +1,7 @@
 # my-weather
 
-> A Vue.js project
+> A Vue.js project using openweather API
+![alt text](https://i.imgur.com/Kqb6bv7.jpg)
 
 ## Build Setup
 

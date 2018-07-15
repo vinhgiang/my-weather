@@ -26,7 +26,7 @@ export default {
   async mounted () {
     let city = 'Stockholm'
 
-    let response = await fetch(`http://api.openweathermap.org/data/2.5/find?q=${city}&units=metric&appid=dfe15a41201d660911d013203832e676`)
+    let response = await fetch(`https://api.openweathermap.org/data/2.5/find?q=${city}&units=metric&appid=dfe15a41201d660911d013203832e676`)
     let responseJson = await response.json()
 
     let weatherInfo = responseJson.list[0]
