@@ -4,11 +4,13 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import moment from 'vue-moment'
+// import countryNames from 'countrynames'
 
 import 'ress'
 import '@/assets/scss/main.scss'
 
 Vue.use(moment)
+// Vue.use(countryNames)
 
 Vue.config.productionTip = false
 
