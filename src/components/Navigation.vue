@@ -11,14 +11,7 @@ export default {
   name: 'Navigation',
   data () {
     return {
-      cities: [
-        'Vancouver',
-        'Stockholm',
-        'Hanoi',
-        'Paris',
-        'London',
-        'Beijing'
-      ]
+      cities: this.$myConfig.cities
     }
   }
 }

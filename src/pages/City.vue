@@ -27,14 +27,7 @@ export default {
   data () {
     return {
       now: new Date(),
-      cities: [
-        'Vancouver',
-        'Stockholm',
-        'Hanoi',
-        'Paris',
-        'London',
-        'Beijing'
-      ],
+      cities: this.$myConfig.cities,
       cityIndex: 0,
       cityName: '',
       countryName: '',
@@ -77,8 +70,6 @@ export default {
         this.description = weatherInfo.weather[0].description
       }
     }
-  },
-  computed: {
   }
 }
 </script>
